@@ -1,0 +1,20 @@
+# Hashes of file build rules.
+d615a5cc56d3a75c072c197944304482 3rdParty/sdl-2.0.20/CMakeFiles/uninstall
+b403ccabd67027c4fcbb79c0d0011df8 3rdParty/sdl-2.0.20/wayland-generated-protocols/idle-inhibit-unstable-v1-client-protocol.h
+ae19c9fdd997716cd6c6b1d6fefbc373 3rdParty/sdl-2.0.20/wayland-generated-protocols/idle-inhibit-unstable-v1-protocol.c
+e1189409ea1cf8840d905cbfae22357a 3rdParty/sdl-2.0.20/wayland-generated-protocols/keyboard-shortcuts-inhibit-unstable-v1-client-protocol.h
+6f58fcdd0fe6addf70e3706deb71c0b7 3rdParty/sdl-2.0.20/wayland-generated-protocols/keyboard-shortcuts-inhibit-unstable-v1-protocol.c
+0cbc77b41fec186f2bc80f31110a9be4 3rdParty/sdl-2.0.20/wayland-generated-protocols/pointer-constraints-unstable-v1-client-protocol.h
+2a6334a8d3a132877b7e472e316e0db4 3rdParty/sdl-2.0.20/wayland-generated-protocols/pointer-constraints-unstable-v1-protocol.c
+403b005e8af241a2717896d17e86c6dd 3rdParty/sdl-2.0.20/wayland-generated-protocols/relative-pointer-unstable-v1-client-protocol.h
+3d62128c861e2fa299efc34f401b6d2b 3rdParty/sdl-2.0.20/wayland-generated-protocols/relative-pointer-unstable-v1-protocol.c
+3c3b781777e92557d6dc144acdfb21b8 3rdParty/sdl-2.0.20/wayland-generated-protocols/text-input-unstable-v3-client-protocol.h
+4daa29705ce531aa7190e1697cde6b7f 3rdParty/sdl-2.0.20/wayland-generated-protocols/text-input-unstable-v3-protocol.c
+306936a5d9e5f9fec0f3766d6397c4c7 3rdParty/sdl-2.0.20/wayland-generated-protocols/wayland-client-protocol.h
+6f19d48ce35001ef94c5f9ea16c50b73 3rdParty/sdl-2.0.20/wayland-generated-protocols/wayland-protocol.c
+ceea4ea4de30356e2006d274e5e0f5b8 3rdParty/sdl-2.0.20/wayland-generated-protocols/xdg-activation-v1-client-protocol.h
+5cbe55471e7be08f6d7b2ac464761f91 3rdParty/sdl-2.0.20/wayland-generated-protocols/xdg-activation-v1-protocol.c
+b729b490e870a06ee44427517943996e 3rdParty/sdl-2.0.20/wayland-generated-protocols/xdg-decoration-unstable-v1-client-protocol.h
+2af7df5e75108b400da2fb17574e0c70 3rdParty/sdl-2.0.20/wayland-generated-protocols/xdg-decoration-unstable-v1-protocol.c
+01ff546c6068d6dc2ae5ae4dab5b6d0c 3rdParty/sdl-2.0.20/wayland-generated-protocols/xdg-shell-client-protocol.h
+045e2fd1f000ed36b5e54010ae9c953b 3rdParty/sdl-2.0.20/wayland-generated-protocols/xdg-shell-protocol.c

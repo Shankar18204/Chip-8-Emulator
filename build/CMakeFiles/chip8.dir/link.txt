@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/chip8.dir/src/Chip8.cpp.o CMakeFiles/chip8.dir/src/main.cpp.o CMakeFiles/chip8.dir/src/Platform.cpp.o -o chip8  -Wl,-rpath,/home/shankar/Desktop/Emulator/build/3rdParty/sdl-2.0.20 3rdParty/glad/libglad.a 3rdParty/sdl-2.0.20/libSDL2-2.0.so.0.18.2 3rdParty/imgui-1.88/libimgui.a 
