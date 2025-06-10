@@ -19,8 +19,29 @@ It allows you to visualize how much time each instruction takes, find performanc
 ### Prerequisites:
 - C++17 or higher
 - A standard compiler (G++, Clang++, MSVC)
-- (Optional) Makefile or build system if you prefer
 
-### Compile with:
+Build the project:
 ```bash
-g++ -std=c++17 main.cpp chip8.cpp -o chip8_emulator
+./build_script.sh
+```
+Navigate to the builds directory:
+```bash
+cd builds
+```
+Run the emulator with a ROM:
+```bash
+./chip8 10 1 ../ROMs/ <any chip8 ROM>
+```
+Replace <any chip8 ROM> with the actual filename of the CHIP-8 ROM you want to run.
+
+### Viewing Analysis Data
+After running the emulator, you can open the generated CSV file with any compatible tool (like a spreadsheet program) to view the processed and analyzed instruction data.
+
+Here's a snapshot of some of the instructions processed:
+![image](https://github.com/user-attachments/assets/9e750575-3644-45ee-87e1-642862f47fa7)"
+
+## Credits
+
+Inspired by [Austin Morlan’s CHIP-8 tutorial](https://austinmorlan.com/posts/chip8_emulator/).  
+This implementation adds extensive performance profiling and analysis features beyond the original.
+
