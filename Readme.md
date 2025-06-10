@@ -35,10 +35,40 @@ Run the emulator with a ROM:
 Replace <any chip8 ROM> with the actual filename of the CHIP-8 ROM you want to run.
 
 ### Viewing Analysis Data
-After running the emulator, you can open the generated CSV file with any compatible tool (like a spreadsheet program) to view the processed and analyzed instruction data.
+After execution, a CSV file profile.csv is generated containing profiling data.
+Open it with any spreadsheet software or plot the data for analysis.
 
-Here's a snapshot of some of the instructions processed:
-![image](https://github.com/user-attachments/assets/9e750575-3644-45ee-87e1-642862f47fa7)"
+Example snapshot:
+| Opcode | Call Count | Avg Time (μs) | Min Time (μs) | Max Time (μs) |
+|--------|------------|----------------|----------------|----------------|
+| 1248   | 1          | 2.712          | 2.712          | 2.712          |
+| F633   | 1          | 3.010          | 3.010          | 3.010          |
+| F065   | 1          | 2.010          | 2.010          | 2.010          |
+| A3E9   | 1          | 2.478          | 2.478          | 2.478          |
+| F155   | 1          | 3.352          | 3.352          | 3.352          |
+| 6130   | 1          | 1.848          | 1.848          | 1.848          |
+| 6000   | 1          | 3.017          | 3.017          | 3.017          |
+| 4607   | 1          | 2.679          | 2.679          | 2.679          |
+| 3207   | 1          | 1.807          | 1.807          | 1.807          |
+| 660F   | 1          | 2.511          | 2.511          | 2.511          |
+| 46C0   | 1          | 3.478          | 3.478          | 3.478          |
+| 8xyE   | 1          | 0.092          | 0.092          | 0.092          |
+| 47EC   | 1          | 2.577          | 2.577          | 2.577          |
+| 8765   | 1          | 3.721          | 3.721          | 3.721          |
+| 8xy5   | 1          | 0.133          | 0.133          | 0.133          |
+| 6930   | 1          | 2.127          | 2.127          | 2.127          |
+| 6689   | 1          | 3.508          | 3.508          | 3.508          |
+| 8xy6   | 1          | 0.074          | 0.074          | 0.074          |
+| 682C   | 1          | 2.186          | 2.186          | 2.186          |
+| 8764   | 1          | 3.088          | 3.088          | 3.088          |
+| 866E   | 1          | 4.104          | 4.104          | 4.104          |
+| 8xy4   | 1          | 0.089          | 0.089          | 0.089          |
+| 678C   | 1          | 1.961          | 1.961          | 1.961          |
+| 4718   | 2          | 2.9615         | 2.853          | 3.070          |
+| A23A   | 2          | 2.7925         | 2.314          | 3.271          |
+| 5xy0   | 1          | 0.113          | 0.113          | 0.113          |
+
+
 
 ## Credits
 
